@@ -28,6 +28,7 @@ const Header = () => {
   };
 
   // update the header please
+  // update the header please
 
   return (
     <header className="th-header header-layout2">
