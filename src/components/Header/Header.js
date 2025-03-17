@@ -27,6 +27,8 @@ const Header = () => {
     toggleMobileMenu(); // Close the mobile menu after selecting an item
   };
 
+  // update the header please
+
   return (
     <header className="th-header header-layout2">
       <div className={`header-top ${showMobileHeader ? 'show' : ''}`}>
