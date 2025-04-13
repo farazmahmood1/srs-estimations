@@ -5,8 +5,8 @@ import './Header.css';
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const [showMobileHeader, setShowMobileHeader] = useState(false);
-  const location = useLocation(); // Get the current route
-  const [activeItem, setActiveItem] = useState(location.pathname); // Set the initial active item
+  const location = useLocation();
+  const [activeItem, setActiveItem] = useState(location.pathname);
 
   const toggleMobileMenu = () => {
     setIsMobileMenuOpen(!isMobileMenuOpen);
@@ -19,16 +19,13 @@ const Header = () => {
   }, []);
 
   useEffect(() => {
-    setActiveItem(location.pathname); // Update active item on route change
+    setActiveItem(location.pathname);
   }, [location]);
 
   const handleMenuItemClick = (path) => {
     setActiveItem(path);
-    toggleMobileMenu(); // Close the mobile menu after selecting an item
+    toggleMobileMenu(); 
   };
-
-  // update the header please
-  // update the header please
 
   return (
     <header className="th-header header-layout2">
@@ -37,10 +34,10 @@ const Header = () => {
           <div className="header-links">
             <ul>
               {/* remove the bounce */}
-              <li><i className="fa-solid fa-location-dot fa-bounce"></i>Staten Island, New York, US</li>
-              <li><i className="fa-brands fa-square-whatsapp fa-bounce"></i><a href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (614) 270 6554</a></li>
-              <li><i className="fa-solid fa-envelope fa-bounce"></i><a href="mailto:info@superiorestimates.io">info@superiorestimates.net</a></li>
-              <li><i className="fa-solid fa-phone fa-bounce"></i><a href="tel:+1 (380) 268 9629" target="_blank" rel="noopener noreferrer">+1 (380) 268 9629</a></li>
+              <li><i className="fa-solid fa-location-dot"></i>Staten Island, New York, US</li>
+              <li><i className="fa-brands fa-whatsapp"></i><a href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (614) 270 6554</a></li>
+              <li><i className="fa-solid fa-envelope"></i><a href="mailto:info@superiorestimates.io">info@superiorestimates.net</a></li>
+              <li><i className="fa-solid fa-phone"></i><a href="tel:+1 (380) 268 9629" target="_blank" rel="noopener noreferrer">+1 (380) 268 9629</a></li>
             </ul>
           </div>
           <div className="header-social">
@@ -52,14 +49,14 @@ const Header = () => {
           </div>
         </div>
       </div>
-      <div className="sticky-wrapper">
+      <div className="sticky-wrapper" >
         <div className="menu-area">
-          <div className="container">
+          <div className="container" >
             <div className="row align-items-center justify-content-between">
               <div className="col-auto">
                 <div className="header-logo">
                   <Link className="icon-masking" to="/">
-                    <img src="assets/img/Logo/logo.png" alt="superiorestimates Logo" style={{ width: '170px', height: '55px' }} />
+                    <img src="assets/img/Logo/logo.png" alt="superiorestimates Logo" style={{ width: '130px', height: '45px' }} />
                   </Link>
                 </div>
               </div>
@@ -80,7 +77,7 @@ const Header = () => {
               <div className="col-auto d-none d-lg-block">
                 <div className="header-button">
                   <a href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="th-btn appointment-btn">
-                    Book an Appointment <i className="fa-brands fa-square-whatsapp fa-bounce"></i>
+                    Book an Appointment <i className="fa-brands fa-whatsapp"></i>
                   </a>
                 </div>
               </div>

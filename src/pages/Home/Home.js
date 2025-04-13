@@ -11,7 +11,7 @@ const Home = () => {
       <div className="cursor"></div>
       <div className="cursor2"></div>
       <HeroSection />
-      <AboutSection />
+      <AboutSection/>
       <ServicesSection />
       <CounterSection />
       <ProcessSection />
