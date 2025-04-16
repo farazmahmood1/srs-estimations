@@ -18,7 +18,7 @@ const HeroSection = () => {
           <div className="hero-text-left">
             <div className="hero-style4">
               <span className="hero-subtitle">
-                "Welcome to Superior Estimates"
+                Welcome to Superior Estimates
               </span>
               <h1 className="hero-title">Transforming Plans into Reality</h1>
               <p className="hero-text">
