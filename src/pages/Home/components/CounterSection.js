@@ -43,49 +43,41 @@ const CounterSection = () => {
   }, [animate]);
 
   return (
-    <div ref={counterSectionRef} className="bg-theme space-extra animate__animated animate__fadeIn" data-bg-src="assets/img/bg/counter_bg_1.png">
-      <div className="container py-2">
-        <div className="row gy-40 justify-content-between">
+    <div ref={counterSectionRef} className="animate__animated animate__fadeIn" style={{ backgroundColor: "#E1EAFF", padding: "50px 0px", marginTop: "50px" }} id="counter-sec">
+      <div className="container">
+        <div className="row justify-content-between">
           <div className="col-6 col-lg-3">
-            <div className={`counter-card ${animate ? 'animate__animated animate__fadeInUp' : ''}`}>
-              <div className="counter-card_icon">
-                <img src="assets/img/icon/counter_1_1.svg" alt="Icon" />
-              </div>
-              <div className="media-body">
-                <h2 className="counter-card_number"><span className="counter-number">{counters.projects}</span>+</h2>
-                <p className="counter-card_text">Projects Completed</p>
+            <div className={` ${animate ? 'animate__animated animate__fadeInUp' : ''}`}>
+              <div className="" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                <img style={{ height: "40px", marginBottom: "30px" }} className='' src="assets/img/icon/counters/verification.png" alt="Icon" />
+                <h2 className="counter-card_number mb-0" style={{ fontSize: "18px", lineHeight: "20px" }} ><span className="counter-number" style={{ fontSize: "28px" }}>{counters.projects}</span>+</h2>
+                <p className="counter-card_text mt-0">Projects Completed</p>
               </div>
             </div>
           </div>
           <div className="col-6 col-lg-3">
-            <div className={`counter-card ${animate ? 'animate__animated animate__fadeInUp' : ''}`} style={{ animationDelay: '0.1s' }}>
-              <div className="counter-card_icon">
-                <img src="assets/img/icon/counter_1_4.svg" alt="Icon" />
-              </div>
-              <div className="media-body">
-                <h2 className="counter-card_number"><span className="counter-number">{counters.years}</span>+</h2>
+            <div className={` ${animate ? 'animate__animated animate__fadeInUp' : ''}`} style={{ animationDelay: '0.1s' }}>
+              <div className="" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                <img style={{ height: "40px" }} className='mb-4' src="assets/img/icon/counters/certificate-1.png" alt="Icon" />
+                <h2 className="counter-card_number" style={{ fontSize: "18px", lineHeight: "20px" }}><span className="counter-number" style={{ fontSize: "28px" }}>{counters.years}</span>+</h2>
                 <p className="counter-card_text">Years of Experience</p>
               </div>
             </div>
           </div>
           <div className="col-6 col-lg-3">
-            <div className={`counter-card ${animate ? 'animate__animated animate__fadeInUp' : ''}`} style={{ animationDelay: '0.2s' }}>
-              <div className="counter-card_icon">
-                <img src="assets/img/icon/counter_1_2.svg" alt="Icon" />
-              </div>
-              <div className="media-body">
-                <h2 className="counter-card_number"><span className="counter-number">{counters.clients}</span>+</h2>
+            <div className={` ${animate ? 'animate__animated animate__fadeInUp' : ''}`} style={{ animationDelay: '0.2s' }}>
+              <div className="" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                <img style={{ height: "70px" }} className='pb-3 mb-1' src="assets/img/icon/counters/customer-feedback.png" alt="Icon" />
+                <h2 className="counter-card_number" style={{ fontSize: "18px", lineHeight: "10px" }}><span className="counter-number" style={{ fontSize: "28px" }}>{counters.clients}</span>+</h2>
                 <p className="counter-card_text">Happy Clients</p>
               </div>
             </div>
           </div>
           <div className="col-6 col-lg-3">
-            <div className={`counter-card ${animate ? 'animate__animated animate__fadeInUp' : ''}`} style={{ animationDelay: '0.3s' }}>
-              <div className="counter-card_icon">
-                <img src="assets/img/icon/counter_1_3.svg" alt="Icon" />
-              </div>
-              <div className="media-body">
-                <h2 className="counter-card_number"><span className="counter-number">{counters.efficiency}</span>%</h2>
+            <div className={` ${animate ? 'animate__animated animate__fadeInUp' : ''}`} style={{ animationDelay: '0.3s' }}>
+              <div className="" style={{ display: "flex", flexDirection: "column", justifyContent: "center", alignItems: "center" }}>
+                <img style={{ height: "50px" }} className='mb-3' src="assets/img/icon/counters/productivity.png" alt="Icon" />
+                <h2 className="counter-card_number" style={{ fontSize: "18px", lineHeight: "20px" }}><span className="counter-number" style={{ fontSize: "28px" }}>{counters.efficiency}</span>%</h2>
                 <p className="counter-card_text">Efficiency</p>
               </div>
             </div>
