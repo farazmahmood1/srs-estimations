@@ -6314,7 +6314,7 @@ a.text-theme:hover,
 }
 
 .header-layout2 .header-top {
-  padding: 17px 0;
+  padding: 7px 0;
   background-color: var(--theme-color);
   --body-color: #fff;
 }
@@ -26530,22 +26530,23 @@ span.select2-selection.select2-selection--single:focus {
   background-color: var(--white-color);
   border-radius: 10px;
   text-align: center;
-  padding: 70px 15px 40px 15px;
+  padding: 80px 15px 40px 15px;
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
   overflow: hidden;
 }
 
 .service-grid_icon {
-  height: 80px;
-  width: 80px;
-  line-height: 80px;
+
+  height: 70px;
+  width: 70px;
+  line-height: 70px;
   background-color: var(--theme-color);
   border-radius: 50%;
   text-align: center;
   position: relative;
   z-index: 2;
-  margin: 0 auto 0 auto;
+  margin: -15px auto 0 auto;
   -webkit-transform: translateY(40px);
       -ms-transform: translateY(40px);
           transform: translateY(40px);
@@ -26587,8 +26588,9 @@ span.select2-selection.select2-selection--single:focus {
 .service-grid_text {
   -webkit-transition: 0.4s ease-in-out;
   transition: 0.4s ease-in-out;
-  max-width: 230px;
-  margin: 0 auto 22px auto;
+  max-width: 280px;
+  /* margin: 0 auto 22px auto; */
+  margin: auto;
 }
 
 .service-grid .th-btn {
@@ -33807,5 +33809,3 @@ span.select2-selection.select2-selection--single:focus {
     padding-bottom: 70px;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
