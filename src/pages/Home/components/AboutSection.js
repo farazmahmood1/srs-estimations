@@ -6,7 +6,7 @@ const AboutSection = () => {
   const [activeTab, setActiveTab] = useState('cat1');
 
   return (
-    <div className="overflow-hidden space" id="about-sec">
+    <div className="overflow-hidden space" style={{ padding: "150px 0px" }} id="about-sec" >
       <div className="container">
         <div className="row align-items-center">
           <div className="col-xl-6 mb-30 mb-xl-0">
@@ -16,8 +16,8 @@ const AboutSection = () => {
           </div>
           <div className="col-xl-6">
             <div className="title-area mb-35 text-center text-xl-start">
-              <div className="shadow-title">ABOUT US</div>
-              <span className="sub-title">About Superior Estimates</span>
+              {/* <div className="shadow-title">ABOUT US</div> */}
+              <span className="sub-title" style={{ justifyContent: "flex-start" }}>About Superior Estimates</span>
               <h2 className="sec-title">
                 Superior Estimates - Precision in Every Estimate, Excellence in Every Build
               </h2>
