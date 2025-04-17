@@ -8,10 +8,10 @@ import ProcessSection from './components/ProcessSection';
 const Home = () => {
   return (
     <>
-      <div className="cursor"></div>
-      <div className="cursor2"></div>
+      {/* <div className="cursor"></div>
+      <div className="cursor2"></div> */}
       <HeroSection />
-      <AboutSection />
+      <AboutSection/>
       <ServicesSection />
       <CounterSection />
       <ProcessSection />
