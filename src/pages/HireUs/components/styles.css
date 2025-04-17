@@ -114,11 +114,11 @@
 
 .testimonial {
   background: #fff;
-  border: 1px solid #e0e0e0;
+  border: 2px solid #E1EAFF;
   border-radius: 8px;
   padding: 20px;
   box-sizing: border-box;
-  text-align: center;
+  /* text-align: center; */
   min-height: 250px; /* Ensure all cards have a minimum height */
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
