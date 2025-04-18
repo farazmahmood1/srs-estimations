@@ -1,0 +1,13 @@
+.call-icon {
+    background-color: #ff3e3e;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .fact-card {
+    border-radius: 8px;
+  }
+  
