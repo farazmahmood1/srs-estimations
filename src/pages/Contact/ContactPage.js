@@ -1,15 +1,57 @@
 import React from 'react'
 
-const ContactUs = () => {
-    return (
-        <>
-            <div>
+const ContactPage = () => {
+  return (
+    <div>
+           <div>
+                <div className="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+                    <div className="container">
+                        <div className="breadcumb-content">
+                            <h1 className="breadcumb-title">Contact Us</h1>
+                            <ul className="breadcumb-menu">
+                                <li><a href="index.html">Home</a></li>
+                                <li>Contact Us</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div className="space">
+                    <div className="container">
+                        <div className="row gy-4">
+                            <div className="col-xl-4 col-md-6">
+                                <div className="contact-info">
+                                    <div className="contact-info_icon"><i className="fas fa-location-dot" /></div>
+                                    <div className="media-body">
+                                        <h4 className="box-title">Our Office Address</h4><span className="contact-info_text">Burnsville, MN
+                                            55337 Streat,<br />United States</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-md-6">
+                                <div className="contact-info">
+                                    <div className="contact-info_icon"><i className="fas fa-phone" /></div>
+                                    <div className="media-body">
+                                        <h4 className="box-title">Call Us Anytime</h4><span className="contact-info_text"><a href="tel:+65485965789">(+65) - 48596 - 5789</a> <a href="tel:+65485965789">+65-48596-5789</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div className="col-xl-4 col-md-6">
+                                <div className="contact-info">
+                                    <div className="contact-info_icon"><i className="fas fa-envelope" /></div>
+                                    <div className="media-body">
+                                        <h4 className="box-title">Send An Email</h4><span className="contact-info_text"><a href="mailto:info.example@gmail.com">info.example@gmail.com</a> <a href="mailto:info@webteck.com">info@webteck.com</a></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <div className="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-8">
-                                <h2 className="sec-title" style={{ marginBottom: "0px", paddingBottom: "0px" }}>Contact <span className="text-theme">Us</span></h2>
                                 <div className="title-area mb-35 text-xl-start text-center"><span className="sub-title">
+                                    <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg" /> <img src="assets/img/theme-img/title_shape_2.svg" alt="shape" /></div>contact with us!
                                 </span>
                                     <h2 className="sec-title">Have Any Questions?</h2>
                                     <p className="sec-text">Enthusiastically disintermediate one-to-one leadership via business
@@ -40,10 +82,8 @@ const ContactUs = () => {
                 </div>
                 <div className="map-sec"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sThemeholy!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowFullScreen loading="lazy" /></div>
             </div>
-
-
-        </>
-    )
+    </div>
+  )
 }
 
-export default ContactUs
+export default ContactPage

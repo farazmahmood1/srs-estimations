@@ -12,7 +12,7 @@ const ProcessSection = () => {
   ];
 
   return (
-    <section className="process-section" id="process-sec" style={{ padding: "230px 0px" }}>
+    <section className="process-section" id="process-sec" style={{ padding: "230px 0px 150px 0px" }}>
       <div className="container space text-center">
         <div className="title-area mb-5">
           <div className="shadow-title">PROCESS</div>
