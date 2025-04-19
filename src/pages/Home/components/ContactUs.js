@@ -4,7 +4,7 @@ const ContactUs = () => {
     return (
         <>
             <div>
-                <div className="bg-smoke space" data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
+                <div className="bg-smoke space" style={{marginTop:"210px"}} data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-8">
