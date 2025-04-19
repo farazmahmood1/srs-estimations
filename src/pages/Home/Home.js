@@ -7,6 +7,7 @@ import ProcessSection from './components/ProcessSection';
 import Reviews from './components/Reviews';
 import WhyUs from './components/WhyUs';
 import ContactUs from './components/ContactUs';
+import Faq from './components/Faq';
 
 const Home = () => {
   return (
@@ -20,6 +21,7 @@ const Home = () => {
       <ProcessSection />
       <WhyUs />
       <Reviews />
+      <Faq/>
       <ContactUs/>
     </>
   );

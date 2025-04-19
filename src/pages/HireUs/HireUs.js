@@ -1,10 +1,6 @@
 import React from 'react';
-import Breadcumb from './components/Breadcumb';
-import TestimonialsSection from './components/TestimonialsSection';
-import './components/styles.css';
-import { Slide } from 'react-awesome-reveal';
 import './HireUs.css';
-import testimonials from './components/testimonials_data';
+
 
 const HireUs = () => {
   return (
