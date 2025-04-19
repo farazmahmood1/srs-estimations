@@ -27,12 +27,13 @@ const HeroSection = () => {
                 top-tier services to turn your challenges into opportunities and
                 vision into reality.
               </p>
-              <div className="btn-group">
+              <div className="btn-group" >
                 <a
                   href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="th-btn"
+                  style={{borderRadius:"25px !important"}}
                 >
                   Talk to Experts<i className="call-btn"></i>
                 </a>

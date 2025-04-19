@@ -35,7 +35,7 @@ const Reviews = () => {
 
     return (
         <div>
-            <div className="container rounded" style={{marginTop: "300px"}}>
+            <div className="container rounded" style={{ marginTop: "300px" }}>
                 <div className="title-area mb-5">
                     <div className="shadow-title">TESTIMONIALS</div>
                     <span className="sub-title">

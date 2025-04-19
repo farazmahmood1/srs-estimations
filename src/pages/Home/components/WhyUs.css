@@ -1,88 +1,13 @@
-.why-sec-v2 {
-  overflow-x: hidden;
-  margin-top: -440px;
-  padding-top: 420px;
-}
-
-
-@media (min-width: 1300px) {
-  .img-box5 {
-    margin-left: 56px;
-    margin-right: -77px;
+.call-icon {
+    background-color: #106ebe;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
-}
-.img-box5 {
-  position: relative;
-  z-index: 2;
-  margin-bottom: -46px;
-  margin-top: -60px;
-}
-.img-box5 .year-counter {
-  position: absolute;
-  top: 20px;
-  left: 40%;
-  border-color: var(--smoke-color2);
-  box-shadow: none;
-  height: 155px;
-  width: 155px;
-  padding: 32px 0;
-}
-.img-box5 .year-counter_number {
-  font-size: 36px;
-}
-.animate-shape1 {
-  width: 100%;
-  position: absolute;
-  top: 0;
-  right: 0;
-  z-index: -1;
-}
-.animate-shape1 svg {
-  width: 100%;
-  height: 100%;
-}
-.why-sec-v2 {
-  overflow-x: hidden;
-  margin-top: -440px;
-  padding-top: 420px;
-}
-@media (max-width: 1199px) {
-  .img-box5 {
-    max-width: 760px;
-    margin-bottom: -20px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
+  
+  .fact-card {
+    border-radius: 8px;
   }
-  .img-box5 .animate-shape1 {
-    max-width: 610px;
-  }
-}
-
-
-.img-box1 .year-counter {
-  position: absolute;
-  bottom: 30px;
-  right: 0;
-}
-.year-counter {
-  height: 184px;
-  width: 184px;
-  background-color: var(--theme-color);
-  border: 12px solid var(--white-color);
-  box-shadow: 0px 10px 30px rgba(8, 14, 28, 0.1);
-  border-radius: 50%;
-  text-align: center;
-  padding: 25px 0;
-}
-.year-counter_number {
-  color: var(--white-color);
-  font-size: 64px;
-  margin-bottom: 0px;
-  line-height: 1.1;
-}
-.year-counter_text {
-  color: var(--white-color);
-  margin-bottom: 0;
-  font-weight: 400;
-}
+  
