@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { FaTimes } from 'react-icons/fa';
 import { servicesData } from './components/servicesData';
 import './components/styles.css';
+import Reviews from '../Home/components/Reviews';
 
 const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
@@ -27,21 +28,18 @@ const Services = () => {
   }, []);
 
   return (
-    <div className="services-page">
-      <div className="container">
-        <div className="breadcrumb-wrapper">
-          <div className="container">
-            <div className="breadcrumb-content">
-              <h1 className="breadcrumb-title">Services</h1>
-              <ul className="breadcrumb-menu">
-                <li><a href="/">Superior Estimation</a></li>
-                <li>Services</li>
-              </ul>
-            </div>
+    <div className="">
+      <div className="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div className="container">
+          <div className="breadcumb-content">
+            <h1 className="breadcumb-title">Our Services</h1>
+            <ul className="breadcumb-menu">
+              <li><a href="index.html">Home</a></li>
+              <li>Services</li>
+            </ul>
           </div>
         </div>
       </div>
-
       <section className="space" id="service-sec">
         <div className="container">
           {servicesData.map((section, index) => (
@@ -62,23 +60,30 @@ const Services = () => {
         </div>
       </section>
 
-      <section className="position-relative space">
-        <div className="th-bg-img">
-          <img src="assets/img/DTechKrew/BGs/bg_overlay_1.png" alt="overlay" />
-        </div>
-        <div className="container z-index-common">
-          <div className="row justify-content-center">
-            <div className="col-xl-6 col-lg-7 col-md-9 text-center">
-              <div className="title-area mb-35">
-                <span className="sub-title">
-                  <div className="icon-masking me-2">
-                    <span className="mask-icon"><img src="assets/img/theme-img/title_shape_2.svg" alt="shape" /></span>
-                  </div>
-                  CONTACT US
-                </span>
-                <h2 className="sec-title text-white">Need Precision Construction Estimation for <span className="text-theme fw-normal">Your Project?</span></h2>
+      <div style={{ marginTop: "-150px" }}>
+        <Reviews />
+      </div>
+
+      <section className="" style={{ marginTop: "250px", marginBottom: "250px" }} id="contact-sec">
+        <div className="container">
+          <div className="cta-box">
+            <div className="row">
+              <div className="col-lg-5">
+                <div className="cta-box_img"><img src="assets/img/gallery/customer_support.jpg" alt="Image" /></div>
               </div>
-              <a href="https://api.whatsapp.com/send/?phone=923087625314&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer" className="th-btn style3">Get In Touch</a>
+              <div className="col-lg-7">
+                <div className="cta-box_content">
+                  <div className="cta-box_icon"><img src="assets/img/icon/call_1.svg" alt="Icon" /></div>
+                  <div className="title-area mb-35">
+                    <div className="shadow-title">CONSULTATION</div><span className="sub-title">
+                      <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg" /> </div>LET’S
+                      CONSULTATION
+                    </span>
+                    <h2 className="sec-title">Let’s Talk About Business Solutions <span className="text-theme">With
+                      Us</span></h2>
+                  </div><a href="contact.html" className="th-btn">CONTACT US<i className="fa-solid fa-arrow-right ms-2" /></a>
+                </div>
+              </div>
             </div>
           </div>
         </div>

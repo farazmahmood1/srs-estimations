@@ -34,16 +34,16 @@ const Header = () => {
           <div className="header-links">
             <ul>
               {/* remove the bounce */}
-              <li className='d-flex align-items-center'><i className="fa-solid fa-location-dot" style={{fontSize:"12px"}}></i>Staten Island, New York, US</li>
-              <li className='d-flex align-items-center'><i className="fa-brands fa-whatsapp" style={{fontSize:"15px"}}></i><a href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (614) 270 6554</a></li>
-              <li className='d-flex align-items-center'><i className="fa-solid fa-envelope" style={{fontSize:"15px"}}></i><a href="mailto:info@superiorestimates.io">info@superiorestimates.net</a></li>
-              <li className='d-flex align-items-center'><i className="fa-solid fa-phone" style={{fontSize:"12px"}}></i><a href="tel:+1 (380) 268 9629" target="_blank" rel="noopener noreferrer">+1 (380) 268 9629</a></li>
+              <li className='d-flex align-items-center'><i className="fa-solid fa-location-dot" style={{ fontSize: "12px" }}></i>Staten Island, New York, US</li>
+              <li className='d-flex align-items-center'><i className="fa-brands fa-whatsapp" style={{ fontSize: "15px" }}></i><a href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (614) 270 6554</a></li>
+              <li className='d-flex align-items-center'><i className="fa-solid fa-envelope" style={{ fontSize: "15px" }}></i><a href="mailto:info@superiorestimates.io">info@superiorestimates.net</a></li>
+              <li className='d-flex align-items-center'><i className="fa-solid fa-phone" style={{ fontSize: "12px" }}></i><a href="tel:+1 (380) 268 9629" target="_blank" rel="noopener noreferrer">+1 (380) 268 9629</a></li>
             </ul>
           </div>
           <div className="header-social">
             <span className="social-title">Follow Us On : </span>
             {/* <a href="https://www.facebook.com/superiorestimates" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a> */}
-            <a href="https://www.linkedin.com/company/superior-estimates-architectural-designs-seads/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in" style={{fontSize:"12px", marginTop:"4px"}}></i></a>
+            <a href="https://www.linkedin.com/company/superior-estimates-architectural-designs-seads/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in" style={{ fontSize: "12px", marginTop: "4px" }}></i></a>
             {/* <a href="https://www.instagram.com/superiorestimates/" target="_blank" rel="noopener noreferrer"><i className="fab fa-instagram"></i></a>
             <a href="https://www.youtube.com/@superiorestimates" target="_blank" rel="noopener noreferrer"><i className="fab fa-youtube"></i></a> */}
           </div>
@@ -70,7 +70,7 @@ const Header = () => {
                     <li><Link to="/blogs">Blogs</Link></li>
                     <li><Link to="/our-team">Our Team</Link></li>
                     <li><Link to="/careers">Careers</Link></li>
-                    <li><Link to="/trainings">Trainings</Link></li>
+                    <li><Link to="/contact">Contact Us</Link></li>
                   </ul>
                 </nav>
               </div>
