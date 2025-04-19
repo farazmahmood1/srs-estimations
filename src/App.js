@@ -10,7 +10,7 @@ import Careers from './pages/Careers/Careers';
 import Trainings from './pages/Trainings/Trainings';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'; // Import the ScrollToTop
+import ScrollToTop from './components/ScrollToTop/ScrollToTop'; // Import the ScrollToTop page
 import Contact from './pages/Contact/ContactPage' 
 
 function App() {
