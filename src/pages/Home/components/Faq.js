@@ -6,7 +6,7 @@ const Faq = () => {
             <div className="space">
                 <div className="container">
                     <div className="title-area text-center"><span className="sub-title">
-                        <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg" /> <img src="assets/img/theme-img/title_shape_2.svg" alt="shape" /></div>FAQ
+                        <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_2.svg" /> </div>FAQ
                     </span>
                         <h2 className="sec-title">Talk To About Any <span className="text-theme">Question?</span></h2>
                     </div>

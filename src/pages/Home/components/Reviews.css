@@ -36,13 +36,8 @@
     margin-bottom: 15px
 }
 
-.owl-carousel .owl-stage-outer {
-    padding: 40px 10px;
-    height: 380px
-}
-
-.owl-carousel .owl-item img {
-    width: 45px !important;
+.owl-carousel .owl-item .rounded-circle {
+    width: 45px;
     height: 45px;
     border-radius: 50%;
     object-fit: cover

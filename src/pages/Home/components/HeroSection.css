@@ -61,3 +61,25 @@
   flex-direction: column;
   align-items: flex-start;
 }
+
+.nav-btn {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+  font-size: 30px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.prev-btn {
+  left: 25px;
+}
+
+.next-btn {
+  right: 25px;
+}

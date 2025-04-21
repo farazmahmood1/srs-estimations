@@ -12,8 +12,6 @@ import Faq from './components/Faq';
 const Home = () => {
   return (
     <>
-      {/* <div className="cursor"></div>
-      <div className="cursor2"></div> */}
       <HeroSection />
       <AboutSection />
       <ServicesSection />

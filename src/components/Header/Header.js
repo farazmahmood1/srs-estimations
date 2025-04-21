@@ -64,8 +64,8 @@ const Header = () => {
                 <nav className={`main-menu d-none d-lg-inline-block ${isMobileMenuOpen ? 'open' : ''}`}>
                   <ul className="menu-list " >
                     <li><Link to="/">Home</Link></li>
+                    <li><Link to="/about-us">About Us</Link></li>
                     <li><Link to="/services">Services</Link></li>
-                    <li><Link to="/hireus">Hire Us</Link></li>
                     <li><Link to="/portfolio">Portfolio</Link></li>
                     <li><Link to="/blogs">Blogs</Link></li>
                     <li><Link to="/our-team">Our Team</Link></li>
