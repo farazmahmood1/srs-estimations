@@ -12,9 +12,7 @@ const ContactUs = () => {
                                 <div className="title-area mb-35 text-xl-start text-center"><span className="sub-title">
                                 </span>
                                     <h2 className="sec-title">Have Any Questions?</h2>
-                                    <p className="sec-text">Enthusiastically disintermediate one-to-one leadership via business
-                                        e-commerce. Dramatically reintermediate compelling process improvements rather than
-                                        empowered relationships.</p>
+                                    <p className="sec-text">Need expert guidance? Our team at SEADS is here to help you every step of the way. Reach out today, and let’s bring your vision to life!</p>
                                 </div>
                                 <form action="mail.php" method="POST" className="contact-form ajax-contact">
                                     <div className="row">
