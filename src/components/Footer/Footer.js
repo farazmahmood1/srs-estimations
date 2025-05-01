@@ -12,7 +12,7 @@ const Footer = () => {
                 <div className="widget footer-widget">
                   <h3 className="widget_title">About Company</h3>
                   <div className="th-widget-about">
-                    <p className="about-text">Superior Estimates & Architectural Designs: Providing exceptional solutions to propel your projects forward.</p>
+                    <p className="about-text">Superior Estimates & Architectural Designs (SEADs): Providing exceptional solutions to propel your projects forward.</p>
                     <div className="th-social">
                       {/* <a href="https://www.facebook.com/SEADS" target="_blank" rel="noopener noreferrer"><i className="fab fa-facebook-f"></i></a> */}
                       <a href="https://www.linkedin.com/company/superior-estimates-architectural-designs-seads/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin-in"></i></a>

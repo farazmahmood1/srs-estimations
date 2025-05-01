@@ -34,7 +34,7 @@ const Header = () => {
           <div className="header-links">
             <ul>
               {/* remove the bounce */}
-              <li className='d-flex align-items-center'><i className="fa-solid fa-location-dot" style={{ fontSize: "12px" }}></i>Staten Island, New York, US</li>
+              <li className='d-flex align-items-center'><i className="fa-solid fa-location-dot" style={{ fontSize: "12px" }}></i>Albany, NY 12207, USA</li>
               <li className='d-flex align-items-center'><i className="fa-brands fa-whatsapp" style={{ fontSize: "15px" }}></i><a href="https://api.whatsapp.com/send/?phone=16142706554&text&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">+1 (614) 270 6554</a></li>
               <li className='d-flex align-items-center'><i className="fa-solid fa-envelope" style={{ fontSize: "15px" }}></i><a href="mailto:info@superiorestimates.io">info@superiorestimates.net</a></li>
               <li className='d-flex align-items-center'><i className="fa-solid fa-phone" style={{ fontSize: "12px" }}></i><a href="tel:380 268 9436" target="_blank" rel="noopener noreferrer">(380) 268 9436</a></li>
