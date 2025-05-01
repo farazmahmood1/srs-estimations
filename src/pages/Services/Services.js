@@ -27,6 +27,16 @@ const Services = () => {
     };
   }, []);
 
+  const services = [
+    { icon: "assets/img/icon/quantity.png", title: "Quantity Takeoff", description: "Ensures accurate cost estimation by measuring required goods and resources, critical for budgeting and effective project execution in construction." },
+    { icon: "assets/img/icon/materials.png", title: "Material Estimates", description: "Provides a comprehensive material list to ensure effective resource allocation and budgeting, aiding in efficient project execution." },
+    { icon: "assets/img/icon/budget.png", title: "Cost Estimates", description: "Our cost assessment serves as a financial blueprint, ensuring resources are used wisely and budgets stay on track." },
+    { icon: "assets/img/icon/proposal.png", title: "Bid Proposals", description: "Crafts a compelling bid proposal with clarity and precision, distinguishing your offer from competitors." },
+    { icon: "assets/img/icon/quotation.png", title: "RFQS", description: "Offering RFQS with our expertise, fulfilling unique requirements to secure preferred partner status." },
+    { icon: "assets/img/icon/blueprint.png", title: "Architectural Designing", description: "Combining functionality with aesthetics, our architectural designs transform ideas into inspiring, lasting structures." }
+  ];
+  
+
   return (
     <div className="">
       <div className="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
@@ -40,27 +50,38 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <section className="space" id="service-sec">
-        <div className="container">
-          {servicesData.map((section, index) => (
-            <div key={index} className="service-section">
-              <h2 className="section-title">{section.category}</h2>
-              <div className="service-board">
-                {section.services.map((service, idx) => (
-                  <div key={idx} className="service-card">
-                    <div className="service-icon">{service.icon}</div>
-                    <h3>{service.title}</h3>
-                    <p>{service.text}</p>
-                    <button className="service-link" onClick={() => handleLearnMore(service)}>Learn More</button>
-                  </div>
-                ))}
+      
+      <section className="bg-top-center z-index-common space-top animate__animated animate__fadeIn" style={{ padding: "230px 0px 100px 0px" }} id="service-sec">
+      <div className="container">
+        <div className="row justify-content-center align-items-center">
+          <div className="col-lg-6 col-sm-9 pe-xl-5">
+            <div className="title-area text-center">
+              <div className="shadow-title color2">SERVICES</div>
+              <span className="sub-title" >WHAT WE DO</span>
+              <h2 className="sec-title">We Provide Exclusive Service For <span className="text-theme">Your Business</span></h2>
+            </div>
+          </div>
+        </div>
+
+        <div className="row mt-5">
+          {services.map((service, index) => (
+            <div className="col-lg-4 col-md-6 col-sm-12 animate__animated animate__zoomIn" key={index}>
+              <div className="service-grid">
+                <div className="service-grid_icon">
+                  <img src={service.icon} alt="Icon" />
+                </div>
+                <div className="service-grid_content mt-1">
+                  <h3 className="box-title" style={{fontSize:"16px"}}><a href="#">{service.title}</a></h3>
+                  <p className="service-grid_text" style={{fontSize:"14px"}}>{service.description}</p>
+                </div>
               </div>
             </div>
           ))}
         </div>
-      </section>
+      </div>
+    </section>
 
-      <div style={{ marginTop: "-150px" }}>
+      <div >
         <Reviews />
       </div>
 

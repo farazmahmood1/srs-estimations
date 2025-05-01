@@ -1,6 +1,8 @@
 import React from 'react'
 
 const ContactPage = () => {
+
+    
     return (
         <div>
             <div>
@@ -80,7 +82,16 @@ const ContactPage = () => {
                         </div>
                     </div>
                 </div>
-                <div className="map-sec"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3644.7310056272386!2d89.2286059153658!3d24.00527418490799!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39fe9b97badc6151%3A0x30b048c9fb2129bc!2sThemeholy!5e0!3m2!1sen!2sbd!4v1651028958211!5m2!1sen!2sbd" allowFullScreen loading="lazy" /></div>
+                <div className="map-sec">
+                    <div className='row'>
+                        <div className='col-lg-6 p-0'>
+                            <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" src="https://maps.google.com/maps?width=400&height=400&hl=en&q=418 Broadway STE N Albany, NY 12207, USA&t=&z=14&ie=UTF8&iwloc=B&output=embed" /><a href="https://sprunkin.com/">Sprunki Game</a></div><style dangerouslySetInnerHTML={{ __html: ".mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}" }} /></div>
+                        </div>
+                        <div className='col-lg-6 p-0'>
+                            <div className="mapouter"><div className="gmap_canvas"><iframe className="gmap_iframe" width="100%" src="https://maps.google.com/maps?width=400&height=400&hl=en&q=AP KHAZNA TOWER BUILDING NAJDA STREET Abu Dhabi.UAE&t=&z=14&ie=UTF8&iwloc=B&output=embed" /><a href="https://sprunkin.com/">Sprunki Game</a></div><style dangerouslySetInnerHTML={{ __html: ".mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}" }} /></div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     )

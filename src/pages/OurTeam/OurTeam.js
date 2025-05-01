@@ -29,37 +29,33 @@ const OurTeam = () => {
         <div className="container">
           <div className="row gy-40 align-items-center">
             <div className="col-xl-5">
-              <div className="team-featured-img"><img src="assets/img/team/team_featured.jpg" alt="Team" /></div>
+              <div className="team-featured-img"><img src="assets/img/DTechKrew/Team/ceo.png" alt="Team" /></div>
             </div>
             <div className="col-xl-7">
               <div className="team-featured">
-                <h2 className="team-title">Rachna Sheth</h2>
-                <p className="team-desig">CEO, of Webteck Company</p>
-                <p className="team-bio">Enthusiastically parallel task 2.0 niches wherea end-to-end strategic theme
-                  area. Dramatically harness e-business ROI and granular service. Quickly target enabled
-                  internal organic sources after cross-unit methods of empowerment. Seamlessly e-enable
-                  intuitive applications before end-to-end applications. Uniquely matrix seamless supply
-                  chains for resource-leveling.</p>
+                <h2 className="team-title">Muhammad Awais Haider, Founder & CEO</h2>
+                <p className="team-desig">CEO, of SEADs</p>
+                <p className="team-bio">Welcome to Superior Estimates, your premier destination for expert cost estimation services. I'm delighted to introduce you to our team of seasoned professionals dedicated to delivering accurate, timely, and data-driven solutions. Leveraging cutting-edge technology and industry expertise, we optimize project budgets, mitigate risks, and drive success. Our commitment to excellence and client satisfaction drives everything we do. Explore our services and let's get started on your next project.</p>
                 <div className="team-contact-wrap">
-                  <div className="team-contact">
+                  <div className="team-contact" style={{ padding: "11px 3px" }}>
                     <div className="icon-btn"><i className="fa-solid fa-phone" /></div>
                     <div className="media-body">
-                      <h6 className="team-contact_label">Phone Number</h6><a className="team-contact_link" href="tel:+19356542587">+1 935-654-2587</a>
+                      <h6 className="team-contact_label">Phone Number</h6><a className="team-contact_link" href="tel:+19356542587">+1 614 270 6554 </a>
                     </div>
                   </div>
-                  <div className="team-contact">
+                  <div className="team-contact" style={{ padding: "11px 3px" }}>
                     <div className="icon-btn"><i className="fa-solid fa-envelope" /></div>
                     <div className="media-body">
-                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:info@rachna.com">info@rachna.com</a>
+                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:info@rachna.com">info@superiorestimate.com</a>
                     </div>
                   </div>
-                  <div className="team-contact">
-                    <div className="icon-btn"><i className="fa-solid fa-phone" /></div>
+                  <div className="team-contact" style={{ padding: "11px 3px" }}>
+                    <div className="icon-btn"><i className="fa-solid fa-clock" /></div>
                     <div className="media-body">
-                      <h6 className="team-contact_label">Phone Number</h6><span className="team-contact_link">10:00AM - 4:00PM</span>
+                      <h6 className="team-contact_label">Timings</h6><span className="team-contact_link">10:00AM - 4:00PM</span>
                     </div>
                   </div>
-                </div><a href="about.html" className="th-btn">MAKE AN APPOINTMENT<i className="fa-regular fa-arrow-right ms-2" /></a>
+                </div><a href="about.html" className="th-btn">MAKE AN APPOINTMENT<i className="fa-solid fa-arrow-right ms-2" /></a>
               </div>
             </div>
           </div>
@@ -68,19 +64,19 @@ const OurTeam = () => {
       <section className="space">
         <div className="container">
           <div className="title-area text-center"><span className="sub-title">
-            <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg" /> <img src="assets/img/theme-img/title_shape_1.svg" alt="shape" /></div>ALL MEMBERS
+            <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg" /></div>ALL MEMBERS
           </span>
             <h2 className="sec-title">See Our Skilled Expert <span className="text-theme">Team</span></h2>
           </div>
           <div className="row gy-40">
             <div className="col-lg-3 col-md-6">
               <div className="th-team team-card">
-                <div className="team-img"><img src="assets/img/team/team_1_1.jpg" alt="Team" /></div>
+                <div className="team-img"><img src="assets/img/DTechKrew/Team/ceo.png" alt="Team" /></div>
                 <div className="team-content">
                   <div className="box-particle" id="team-p1" />
                   <div className="team-social"><a target="_blank" href="https://facebook.com/"><i className="fab fa-facebook-f" /></a> <a target="_blank" href="https://twitter.com/"><i className="fab fa-twitter" /></a> <a target="_blank" href="https://instagram.com/"><i className="fab fa-instagram" /></a> <a target="_blank" href="https://linkedin.com/"><i className="fab fa-linkedin-in" /></a>
                   </div>
-                  <h3 className="box-title"><a href="team-details.html">Rayan Athels</a></h3><span className="team-desig">Founder &amp; CEO</span>
+                  <h3 className="box-title"><a href="team-details.html">Awais Haider</a></h3><span className="team-desig">Founder &amp; CEO</span>
                 </div>
               </div>
             </div>
