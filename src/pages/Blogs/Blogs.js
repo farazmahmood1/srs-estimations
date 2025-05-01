@@ -33,7 +33,7 @@ const Blogs = () => {
           <div className="breadcumb-content">
             <h1 className="breadcumb-title">Blog Post</h1>
             <ul className="breadcumb-menu">
-              <li><a href="index.html">Home</a></li>
+              <li><a >Home</a></li>
               <li>Blog Post</li>
             </ul>
           </div>
@@ -44,76 +44,76 @@ const Blogs = () => {
           <div className="row">
             <div className="col-xxl-8 col-lg-7">
               <div className="th-blog blog-single has-post-thumbnail">
-                <div className="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image" /></a></div>
+                <div className="blog-img"><a ><img src="assets/img/blog/blog-s-1-1.jpg" alt="Blog Image" /></a></div>
                 <div className="blog-content">
-                  <div className="blog-meta"><a className="author" href="blog.html"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog.html"><i className="fa-light fa-calendar-days" />21 June, 2024</a> <a href="blog-details.html"><i className="fa-regular fa-comments" />Comments (3)</a>
+                  <div className="blog-meta"><a className="author" ><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a ><i className="fa-light fa-calendar-days" />21 June, 2024</a> <a ><i className="fa-regular fa-comments" />Comments (3)</a>
                   </div>
-                  <h2 className="blog-title"><a href="blog-details.html">Unsatiable entreaties may collecting
+                  <h2 className="blog-title"><a >Unsatiable entreaties may collecting
                     Power.</a></h2>
                   <p className="blog-text">Progressively plagiarize quality metrics for impactful data.
                     Assertively. Holisticly leverage existing magnetic functionalities. Assertively
                     orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                    enhance highly efficient infomediaries.</p><a href="blog-details.html" className="line-btn">Read More</a>
+                    enhance highly efficient infomediaries.</p><a className="line-btn">Read More</a>
                 </div>
               </div>
               <div className="th-blog blog-single has-post-thumbnail">
-                <div className="blog-img th-carousel" data-arrows="true" data-slide-show={1} data-fade="true"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image" /></a><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-4.jpg" alt="Blog Image" /></a></div>
+                <div className="blog-img th-carousel" data-arrows="true" data-slide-show={1} data-fade="true"><a ><img src="assets/img/blog/blog-s-1-2.jpg" alt="Blog Image" /></a><a ><img src="assets/img/blog/blog-s-1-4.jpg" alt="Blog Image" /></a></div>
                 <div className="blog-content">
-                  <div className="blog-meta"><a className="author" href="blog.html"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog.html"><i className="fa-light fa-calendar-days" />22 June, 2024</a> <a href="blog-details.html"><i className="fa-regular fa-comments" />Comments (3)</a>
+                  <div className="blog-meta"><a className="author" ><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a ><i className="fa-light fa-calendar-days" />22 June, 2024</a> <a ><i className="fa-regular fa-comments" />Comments (3)</a>
                   </div>
-                  <h2 className="blog-title"><a href="blog-details.html">Regional Manager limited time
+                  <h2 className="blog-title"><a >Regional Manager limited time
                     management.</a></h2>
                   <p className="blog-text">Progressively plagiarize quality metrics for impactful data.
                     Assertively. Holisticly leverage existing magnetic functionalities. Assertively
                     orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                    enhance highly efficient infomediaries.</p><a href="blog-details.html" className="line-btn">Read More</a>
+                    enhance highly efficient infomediaries.</p><a  className="line-btn">Read More</a>
                 </div>
               </div>
               <div className="th-blog blog-single">
                 <div className="blog-content">
-                  <div className="blog-meta"><a className="author" href="blog.html"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog.html"><i className="fa-light fa-calendar-days" />24 June, 2024</a> <a href="blog-details.html"><i className="fa-regular fa-comments" />Comments (3)</a>
+                  <div className="blog-meta"><a className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a ><i className="fa-light fa-calendar-days" />24 June, 2024</a> <a ><i className="fa-regular fa-comments" />Comments (3)</a>
                   </div>
-                  <h2 className="blog-title"><a href="blog-details.html">What’s the Holding Back It Solution
+                  <h2 className="blog-title"><a >What’s the Holding Back It Solution
                     Industry?</a></h2>
                   <p className="blog-text">Progressively plagiarize quality metrics for impactful data.
                     Assertively. Holisticly leverage existing magnetic functionalities. Assertively
                     orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                    enhance highly efficient infomediaries.</p><a href="blog-details.html" className="line-btn">Read More</a>
+                    enhance highly efficient infomediaries.</p><a  className="line-btn">Read More</a>
                 </div>
               </div>
               <div className="th-blog blog-single has-post-thumbnail">
-                <div className="blog-img"><a href="blog-details.html"><img src="assets/img/blog/blog-s-1-3.jpg" alt="Blog Image" /></a><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video"><i className="fas fa-play" /></a></div>
+                <div className="blog-img"><a ><img src="assets/img/blog/blog-s-1-3.jpg" alt="Blog Image" /></a><a href="https://www.youtube.com/watch?v=_sI_Ps7JSEk" className="play-btn popup-video"><i className="fas fa-play" /></a></div>
                 <div className="blog-content">
-                  <div className="blog-meta"><a className="author" href="blog.html"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog.html"><i className="fa-light fa-calendar-days" />24 June, 2024</a> <a href="blog-details.html"><i className="fa-regular fa-comments" />Comments (3)</a>
+                  <div className="blog-meta"><a className="author" ><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a ><i className="fa-light fa-calendar-days" />24 June, 2024</a> <a ><i className="fa-regular fa-comments" />Comments (3)</a>
                   </div>
-                  <h2 className="blog-title"><a href="blog-details.html">Latin derived from Cicero's 1st-century
+                  <h2 className="blog-title"><a >Latin derived from Cicero's 1st-century
                     BC</a></h2>
                   <p className="blog-text">Progressively plagiarize quality metrics for impactful data.
                     Assertively. Holisticly leverage existing magnetic functionalities. Assertively
                     orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                    enhance highly efficient infomediaries.</p><a href="blog-details.html" className="line-btn">Read More</a>
+                    enhance highly efficient infomediaries.</p><a  className="line-btn">Read More</a>
                 </div>
               </div>
               <div className="th-blog blog-single has-post-thumbnail">
                 <div className="blog-audio"><iframe title="Tell Me U Luv Me (with Trippie Redd) by Juice WRLD" src="https://w.soundcloud.com/player/?visual=true&url=https%3A%2F%2Fapi.soundcloud.com%2Ftracks%2F830279092&show_artwork=true&maxwidth=751&maxheight=1000&dnt=1" />
                 </div>
                 <div className="blog-content">
-                  <div className="blog-meta"><a className="author" href="blog.html"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog.html"><i className="fa-light fa-calendar-days" />25 June, 2024</a> <a href="blog-details.html"><i className="fa-regular fa-comments" />Comments (3)</a>
+                  <div className="blog-meta"><a className="author" ><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a ><i className="fa-light fa-calendar-days" />25 June, 2024</a> <a ><i className="fa-regular fa-comments" />Comments (3)</a>
                   </div>
-                  <h2 className="blog-title"><a href="blog-details.html">Regional Manager limited time
+                  <h2 className="blog-title"><a >Regional Manager limited time
                     management.</a></h2>
                   <p className="blog-text">Progressively plagiarize quality metrics for impactful data.
                     Assertively. Holisticly leverage existing magnetic functionalities. Assertively
                     orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                    enhance highly efficient infomediaries.</p><a href="blog-details.html" className="line-btn">Read More</a>
+                    enhance highly efficient infomediaries.</p><a  className="line-btn">Read More</a>
                 </div>
               </div>
               <div className="th-pagination text-center">
                 <ul>
-                  <li><a href="blog.html">1</a></li>
-                  <li><a href="blog.html">2</a></li>
-                  <li><a href="blog.html">3</a></li>
-                  <li><a href="blog.html"><i className="far fa-arrow-right" /></a></li>
+                  <li><a >1</a></li>
+                  <li><a >2</a></li>
+                  <li><a >3</a></li>
+                  <li><a ><i className="far fa-arrow-right" /></a></li>
                 </ul>
               </div>
             </div>
@@ -125,39 +125,39 @@ const Blogs = () => {
                 <div className="widget widget_categories">
                   <h3 className="widget_title">Categories</h3>
                   <ul>
-                    <li><a href="blog.html">IT Solution</a></li>
-                    <li><a href="blog.html">SEO Marketing</a></li>
-                    <li><a href="blog.html">Web Development</a></li>
-                    <li><a href="blog.html">Cloud Solution</a></li>
-                    <li><a href="blog.html">Network Marketing</a></li>
-                    <li><a href="blog.html">UI/UX Design</a></li>
+                    <li><a >IT Solution</a></li>
+                    <li><a >SEO Marketing</a></li>
+                    <li><a >Web Development</a></li>
+                    <li><a >Cloud Solution</a></li>
+                    <li><a >Network Marketing</a></li>
+                    <li><a >UI/UX Design</a></li>
                   </ul>
                 </div>
                 <div className="widget">
                   <h3 className="widget_title">Recent Posts</h3>
                   <div className="recent-post-wrap">
                     <div className="recent-post">
-                      <div className="media-img"><a href="blog-details.html"><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a></div>
+                      <div className="media-img"><a ><img src="assets/img/blog/recent-post-1-1.jpg" alt="Blog Image" /></a></div>
                       <div className="media-body">
-                        <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Unsatiable entreaties may collecting Power.</a>
+                        <h4 className="post-title"><a className="text-inherit" >Unsatiable entreaties may collecting Power.</a>
                         </h4>
-                        <div className="recent-post-meta"><a href="blog.html"><i className="fal fa-calendar-days" />21 June, 2024</a></div>
+                        <div className="recent-post-meta"><a ><i className="fal fa-calendar-days" />21 June, 2024</a></div>
                       </div>
                     </div>
                     <div className="recent-post">
-                      <div className="media-img"><a href="blog-details.html"><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a></div>
+                      <div className="media-img"><a ><img src="assets/img/blog/recent-post-1-2.jpg" alt="Blog Image" /></a></div>
                       <div className="media-body">
-                        <h4 className="post-title"><a className="text-inherit" href="blog-details.html">Regional
+                        <h4 className="post-title"><a className="text-inherit" >Regional
                           Manager limited time management.</a></h4>
-                        <div className="recent-post-meta"><a href="blog.html"><i className="fal fa-calendar-days" />22 June, 2024</a></div>
+                        <div className="recent-post-meta"><a ><i className="fal fa-calendar-days" />22 June, 2024</a></div>
                       </div>
                     </div>
                     <div className="recent-post">
-                      <div className="media-img"><a href="blog-details.html"><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image" /></a></div>
+                      <div className="media-img"><a ><img src="assets/img/blog/recent-post-1-3.jpg" alt="Blog Image" /></a></div>
                       <div className="media-body">
-                        <h4 className="post-title"><a className="text-inherit" href="blog-details.html">What’s
+                        <h4 className="post-title"><a className="text-inherit" >What’s
                           the Holding Back It Solution Industry?</a></h4>
-                        <div className="recent-post-meta"><a href="blog.html"><i className="fal fa-calendar-days" />23 June, 2024</a></div>
+                        <div className="recent-post-meta"><a ><i className="fal fa-calendar-days" />23 June, 2024</a></div>
                       </div>
                     </div>
                   </div>
@@ -175,7 +175,7 @@ const Blogs = () => {
                 </div>
                 <div className="widget widget_tag_cloud">
                   <h3 className="widget_title">Popular Tags</h3>
-                  <div className="tagcloud"><a href="blog.html">Technology</a> <a href="blog.html">Advice</a> <a href="blog.html">Solution</a> <a href="blog.html">Consultion</a> <a href="blog.html">Business</a> <a href="blog.html">Services</a> <a href="blog.html">Start Up</a> <a href="blog.html">Agency</a> <a href="blog.html">Software</a></div>
+                  <div className="tagcloud"><a >Technology</a> <a >Advice</a> <a >Solution</a> <a >Consultion</a> <a >Business</a> <a >Services</a> <a >Start Up</a> <a >Agency</a> <a >Software</a></div>
                 </div>
               </aside>
             </div>

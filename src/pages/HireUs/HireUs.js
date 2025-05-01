@@ -13,7 +13,7 @@ const HireUs = () => {
             <div className="breadcumb-content">
               <h1 className="breadcumb-title">About Us</h1>
               <ul className="breadcumb-menu">
-                <li><a href="index.html">Home</a></li>
+                <li><a >Home</a></li>
                 <li>About Us</li>
               </ul>
             </div>
@@ -184,12 +184,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_1.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />15
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />2
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />15
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />2
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">Unsatiable entreaties may
+                        <h3 className="box-title"><a >Unsatiable entreaties may
                           collecting Power.</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>
@@ -197,12 +197,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_2.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />16
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />3
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />16
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />3
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">Regional Manager &amp; limited time
+                        <h3 className="box-title"><a >Regional Manager &amp; limited time
                           management.</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>
@@ -210,12 +210,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_3.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />17
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />2
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />17
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />2
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">What’s the Holding Back the It
+                        <h3 className="box-title"><a >What’s the Holding Back the It
                           Solution Industry?</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>
@@ -223,12 +223,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_4.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />19
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />4
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />19
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />4
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">Latin derived from Cicero's
+                        <h3 className="box-title"><a >Latin derived from Cicero's
                           1st-century BC</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>
@@ -236,12 +236,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_1.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />15
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />2
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />15
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />2
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">Unsatiable entreaties may
+                        <h3 className="box-title"><a >Unsatiable entreaties may
                           collecting Power.</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>
@@ -249,12 +249,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_2.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />16
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />3
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />16
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />3
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">Regional Manager &amp; limited time
+                        <h3 className="box-title"><a >Regional Manager &amp; limited time
                           management.</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>
@@ -262,12 +262,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_3.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />17
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />2
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />17
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />2
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">What’s the Holding Back the It
+                        <h3 className="box-title"><a >What’s the Holding Back the It
                           Solution Industry?</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>
@@ -275,12 +275,12 @@ const HireUs = () => {
                     <div className="blog-card">
                       <div className="blog-img"><img src="assets/img/blog/blog_1_4.jpg" alt="blog image" /></div>
                       <div className="blog-content">
-                        <div className="blog-meta"><a href="blog.html"><i className="fal fa-calendar-days" />19
-                          Jan, 2024</a> <a href="blog.html"><i className="fal fa-comments" />4
+                        <div className="blog-meta"><a ><i className="fal fa-calendar-days" />19
+                          Jan, 2024</a> <a ><i className="fal fa-comments" />4
                             Comments</a></div>
-                        <h3 className="box-title"><a href="blog-details.html">Latin derived from Cicero's
+                        <h3 className="box-title"><a >Latin derived from Cicero's
                           1st-century BC</a></h3>
-                        <div className="blog-bottom"><a href="blog.html" className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a href="blog-details.html" className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
+                        <div className="blog-bottom"><a  className="author"><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a  className="line-btn">Read More<i className="fas fa-arrow-right" /></a></div>
                       </div>
                     </div>
                   </div>

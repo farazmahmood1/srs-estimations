@@ -86,9 +86,9 @@ const Footer = () => {
               </div>
               <div className="col-lg-6 text-lg-end text-center">
                 <div className="footer-links">
-                  <ul>
+                  {/* <ul>
                     <li><a href="/careers">Careers</a></li>
-                  </ul>
+                  </ul> */}
                 </div>
               </div>
             </div>

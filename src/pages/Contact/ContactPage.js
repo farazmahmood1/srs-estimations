@@ -11,7 +11,7 @@ const ContactPage = () => {
                         <div className="breadcumb-content">
                             <h1 className="breadcumb-title">Contact Us</h1>
                             <ul className="breadcumb-menu">
-                                <li><a href="index.html">Home</a></li>
+                                <li><a >Home</a></li>
                                 <li>Contact Us</li>
                             </ul>
                         </div>
@@ -24,8 +24,8 @@ const ContactPage = () => {
                                 <div className="contact-info">
                                     <div className="contact-info_icon"><i className="fas fa-location-dot" /></div>
                                     <div className="media-body">
-                                        <h4 className="box-title">Our Office Address</h4><span className="contact-info_text">Burnsville, MN
-                                            55337 Streat,<br />United States</span>
+                                        <h4 className="box-title">Our Office Address</h4><span className="contact-info_text">418 Broadway STE N Albany, NY 12207, USA
+                                        </span>
                                     </div>
                                 </div>
                             </div>
@@ -33,7 +33,7 @@ const ContactPage = () => {
                                 <div className="contact-info">
                                     <div className="contact-info_icon"><i className="fas fa-phone" /></div>
                                     <div className="media-body">
-                                        <h4 className="box-title">Call Us Anytime</h4><span className="contact-info_text"><a href="tel:+65485965789">(+65) - 48596 - 5789</a> <a href="tel:+65485965789">+65-48596-5789</a></span>
+                                        <h4 className="box-title">Call Us Anytime</h4><span className="contact-info_text"><a href="tel:+380 268 9436"> +1 (380) 268-9436                                        </a> <a href="tel:+1 (614) 270-6554">+1 (614) 270-6554</a></span>
                                     </div>
                                 </div>
                             </div>
@@ -41,7 +41,7 @@ const ContactPage = () => {
                                 <div className="contact-info">
                                     <div className="contact-info_icon"><i className="fas fa-envelope" /></div>
                                     <div className="media-body">
-                                        <h4 className="box-title">Send An Email</h4><span className="contact-info_text"><a href="mailto:info.example@gmail.com">info.example@gmail.com</a> <a href="mailto:info@webteck.com">info@webteck.com</a></span>
+                                        <h4 className="box-title">Send An Email</h4><span className="contact-info_text"><a href="mailto:info.superiorestimate.com">info.superiorestimate.com</a> <a href="mailto:hr@superiorestimate.com">hr@superiorestimate.com</a></span>
                                     </div>
                                 </div>
                             </div>
