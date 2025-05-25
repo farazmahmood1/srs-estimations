@@ -48,12 +48,8 @@ const Blogs = () => {
                 <div className="blog-content">
                   <div className="blog-meta"><a className="author" ><img src="assets/img/blog/author-1-1.png" alt="avater" /> By Themeholy</a> <a ><i className="fa-light fa-calendar-days" />21 June, 2024</a> <a ><i className="fa-regular fa-comments" />Comments (3)</a>
                   </div>
-                  <h2 className="blog-title"><a >Unsatiable entreaties may collecting
-                    Power.</a></h2>
-                  <p className="blog-text">Progressively plagiarize quality metrics for impactful data.
-                    Assertively. Holisticly leverage existing magnetic functionalities. Assertively
-                    orchestrate high-quality customer service vis-a-vis intuitive interfaces. Conveniently
-                    enhance highly efficient infomediaries.</p><a className="line-btn">Read More</a>
+                  <h2 className="blog-title"><a >SEADS Insights: The Strategies for Estimators to Win More Tenders in the 2025 Construction Environment!</a></h2>
+                  <p className="blog-text">Into 2025, the U.S. construction industry finds itself at a critical juncture – of re-emergent public investment, rapidly increasing need for infrastructure, and burgeoning technological resources. However, this momentum is dented by constant headwinds. labor shortages, fluctuating cost of materials and changing landscape of regulations. We feel that, at Superior Estimates Architectural Designs (SEADS), the ability to recognize this dual dynamic is not only critical to survive – but thrive. This blog dissects the trends that are defining the industry and provides strategic takeaways for forward thinking builders, estimators, and contractors.</p><a className="line-btn">Read More</a>
                 </div>
               </div>
               <div className="th-blog blog-single has-post-thumbnail">

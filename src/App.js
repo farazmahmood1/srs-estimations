@@ -11,7 +11,9 @@ import Trainings from './pages/Trainings/Trainings';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'; // Import the ScrollToTop for homepage
-import Contact from './pages/Contact/ContactPage' 
+import Contact from './pages/Contact/ContactPage'
+import PrivacyPolicy from './pages/Policies/PrivacyPolicy';
+import TermsAndConditions from './pages/Policies/TermsAndConditions';
 
 function App() {
   return (
@@ -27,6 +29,8 @@ function App() {
         <Route path="/our-team" element={<OurTeam />} />
         {/* <Route path="/careers" element={<Careers />} /> */}
         <Route path="/contact" element={<Contact />} />
+        <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+         <Route path="/terms-and-conditions" element={<TermsAndConditions />} />
       </Routes>
       <Footer />
     </Router>

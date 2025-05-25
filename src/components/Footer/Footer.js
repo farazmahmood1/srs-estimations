@@ -1,5 +1,6 @@
 // Footer.js
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
   return (
@@ -26,8 +27,8 @@ const Footer = () => {
                   <h3 className="widget_title">Quick Links</h3>
                   <div className="menu-all-pages-container">
                     <ul className="menu">
-                      <li><a href="/services">Services</a></li>
-                      <li><a href="/blogs">Blogs</a></li>
+                      <li><Link to='/privacy-policy'>Privacy Policy</Link></li>
+                      <li><Link to="/terms-and-conditions" >Terms and Conditions</Link></li>
                     </ul>
                   </div>
                 </div>

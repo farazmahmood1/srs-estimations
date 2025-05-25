@@ -32,7 +32,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-1"
                     >
-                      What services does SEADS offer?
+                      What are the types of construction estimates that you make?
                     </button>
                   </div>
                   <div
@@ -43,7 +43,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        SEADS specializes in architectural designing (2D & 3D), quantity takeoffs, cost estimations, material lists, bid forms, and request for quotations (RFQ). Our team ensures precision, efficiency, and innovation in every project.
+                        We provide specific estimates for areas of CSI Divisions 03–33 including concrete and masonry to mechanical, electrical, plumbing (MEP), and finishes. Our commercial, industrial and institutional projects services are tuned for commercial, industrial, and institutional projects.
                       </p>
                     </div>
                   </div>
@@ -60,7 +60,7 @@ const Faq = () => {
                       aria-expanded="true"
                       aria-controls="collapse-2"
                     >
-                      How accurate are your cost estimations?
+                      Which trades or divisions do you specialise in?
                     </button>
                   </div>
                   <div
@@ -71,7 +71,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Our cost estimations are meticulously prepared using advanced tools and industry standards. We ensure accuracy by cross-verifying quantities, analyzing project components, and collaborating with clients for adjustments.
+                        We include all the key trades entering the construction: concrete, masonry, structural steel, drywall, HVAC, plumbing, electrical, roofing, earthwork, etc – conforming to CSI MasterFormat structuring.
                       </p>
                     </div>
                   </div>
@@ -88,7 +88,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-3"
                     >
-                      Can you help with both residential and commercial projects?
+                      How does one come up with prices for each estimate?
                     </button>
                   </div>
                   <div
@@ -99,7 +99,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Absolutely! SEADS has extensive experience in both residential and commercial projects. Whether you're building a home or managing a large-scale development, we tailor our services to meet your specific needs.
+                        As for the pricing, we base it on the size of projects, complexity, and divisions. We use the current labor and material rates, regional cost databases, as well as history information to achieve pricing accuracy.
                       </p>
                     </div>
                   </div>
@@ -116,7 +116,8 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-4"
                     >
-                      How do you ensure transparency in your processes?
+
+                      Will my estimate be shown to the other clients or my competitors?
                     </button>
                   </div>
                   <div
@@ -127,17 +128,12 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Transparency is at the core of our operations. From detailed documentation to standardized bid forms, we ensure clarity at every step. Our team is always available to address your queries and provide updates.
+                        Absolutely not. All the estimates we make are 100 confidential and custom-made for your unique project. We have never recycled or resold our work.
                       </p>
                     </div>
                   </div>
                 </div>
-              </div>
-            </div>
 
-            {/* Right Column */}
-            <div className="col-xl-6">
-              <div className="accordion-area accordion" id="faqAccordion2">
                 {/* Question 5 */}
                 <div className="accordion-card style2">
                   <div className="accordion-header" id="collapse-item-5">
@@ -148,8 +144,7 @@ const Faq = () => {
                       data-bs-target="#collapse-5"
                       aria-expanded="false"
                       aria-controls="collapse-5"
-                    >
-                      What makes your architectural designs unique?
+                    >Is it possible to give an estimate even when you do not posses comprehensive plans?
                     </button>
                   </div>
                   <div
@@ -160,11 +155,18 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Our designs combine functionality, aesthetics, and structural integrity. Using cutting-edge 2D & 3D modeling tools, we create photorealistic visualizations and interactive walkthroughs to bring your vision to life.
+                        Yes. We are also able to develop preliminary or conceptual estimates using sketches or partial drawings, or a project narrative for early budgeting and planning purposes.
                       </p>
                     </div>
                   </div>
                 </div>
+              </div>
+            </div>
+
+            {/* Right Column */}
+            <div className="col-xl-6">
+              <div className="accordion-area accordion" id="faqAccordion2">
+
 
                 {/* Question 6 */}
                 <div className="accordion-card style2">
@@ -177,7 +179,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-6"
                     >
-                      How long does it take to prepare an estimate?
+                      What if the drawings are not finished or they are still in progress?
                     </button>
                   </div>
                   <div
@@ -188,7 +190,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        The timeline depends on the complexity of the project. For standard projects, we typically deliver estimates within 3-5 business days. Larger or more intricate projects may require additional time for thorough analysis.
+                        We’re used to dealing with schematic or design development drawings and can issue a phased estimate. The absentees from any information will be highlighted, and reasonable assumptions will be properly mentioned.
                       </p>
                     </div>
                   </div>
@@ -205,7 +207,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-7"
                     >
-                      Do you offer consultation services?
+                      How accurate are your estimates?
                     </button>
                   </div>
                   <div
@@ -216,7 +218,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Yes, we provide expert consultation services to guide you through every stage of your project. Our team will work closely with you to understand your goals and develop a strategy that aligns with your vision.
+                        In case full documentation is available, our estimates usually achieves 97% accuracy of the actual construction costs. This accuracy is stimulated by the detailed amount takeoffs, which are current pricing and trade-specific know-how.
                       </p>
                     </div>
                   </div>
@@ -233,7 +235,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-8"
                     >
-                      Can I request revisions to your designs or estimates?
+                      What are the procedures of usage of your services?
                     </button>
                   </div>
                   <div
@@ -244,7 +246,7 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Absolutely! We value feedback and are committed to delivering results that meet your expectations. Revisions are included as part of our process to ensure complete satisfaction.
+                        It is as easy as asking for a quote by our website address or contacting us directly. We’ll look through your project documents and kick-start the estimating process immediately.
                       </p>
                     </div>
                   </div>
@@ -261,7 +263,7 @@ const Faq = () => {
                       aria-expanded="false"
                       aria-controls="collapse-9"
                     >
-                      How can I get started with SEADS?
+                      Do you offer services nationwide?
                     </button>
                   </div>
                   <div
@@ -272,7 +274,34 @@ const Faq = () => {
                   >
                     <div className="accordion-body">
                       <p className="faq-text">
-                        Getting started is easy! Simply reach out to us via phone or email, and our team will schedule a consultation to discuss your project requirements. From there, we’ll create a customized plan to bring your ideas to life.
+                        Yes. We work with contractors and developers, throughout the U.S., including regionally-adjusted pricing and local code compliance to every estimate.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                {/* Question 10 */}
+                <div className="accordion-card style2">
+                  <div className="accordion-header" id="collapse-item-10">
+                    <button
+                      className="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapse-10"
+                      aria-expanded="false"
+                      aria-controls="collapse-10"
+                    >
+                      What kind of estimation software or tools do you use?
+                    </button>
+                  </div>
+                  <div
+                    id="collapse-10"
+                    className="accordion-collapse collapse"
+                    aria-labelledby="collapse-item-10"
+                    data-bs-parent="#faqAccordion2"
+                  >
+                    <div className="accordion-body">
+                      <p className="faq-text">
+                        We employ leading industry tools such as Bluebeam, PlanSwift, and CostX to do precise quantity takeoffs and cost estimate. RS refers to, Accubid, National Data Base and Vendor prices also help to do so. These platforms allow us to provide the detailed, organized, and accurate quotes that can be tuned to meet your project requirements.
                       </p>
                     </div>
                   </div>
