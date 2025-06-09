@@ -4,7 +4,7 @@ const ContactUs = () => {
     return (
         <>
             <div>
-                <div className="bg-smoke space" style={{marginTop:"150px"}} data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
+                <div className="bg-smoke space" style={{ marginTop: "150px" }} data-bg-src="assets/img/bg/contact_bg_1.png" id="contact-sec">
                     <div className="container">
                         <div className="row">
                             <div className="col-xl-8">
@@ -14,17 +14,14 @@ const ContactUs = () => {
                                     <h2 className="sec-title">Have Any Questions?</h2>
                                     <p className="sec-text">Need expert guidance? Our team at SEADS is here to help you every step of the way. Reach out today, and let’s bring your vision to life!</p>
                                 </div>
-                                <form action="mail.php" method="POST" className="contact-form ajax-contact">
+                                <form className="contact-form ajax-contact">
                                     <div className="row">
                                         <div className="form-group col-md-6"><input type="text" className="form-control" name="name" id="name" placeholder="Your Name" /> <i className="fal fa-user" /></div>
                                         <div className="form-group col-md-6"><input type="email" className="form-control" name="email" id="email" placeholder="Email Address" /> <i className="fal fa-envelope" /></div>
                                         <div className="form-group col-md-6"><select name="subject" id="subject" className="form-select">
                                             <option value disabled="disabled" selected="selected" hidden>Select Subject
                                             </option>
-                                            <option value="Web Development">Web Development</option>
-                                            <option value="Brand Marketing">Brand Marketing</option>
-                                            <option value="UI/UX Designing">UI/UX Designing</option>
-                                            <option value="Digital Marketing">Digital Marketing</option>
+                                            <option value="Estimation">Estimation</option>
                                         </select> <i className="fal fa-chevron-down" /></div>
                                         <div className="form-group col-md-6"><input type="tel" className="form-control" name="number" id="number" placeholder="Phone Number" /> <i className="fal fa-phone" /></div>
                                         <div className="form-group col-12"><textarea name="message" id="message" cols={30} rows={3} className="form-control" placeholder="Your Message" defaultValue={""} /> <i className="fal fa-comment" /></div>

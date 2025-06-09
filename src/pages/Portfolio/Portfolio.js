@@ -27,24 +27,22 @@ const Portfolio = () => {
   }, []);
 
   return (
-    <div className="portfolio-page">
-      <div className="container">
-        <div className="breadcrumb-wrapper">
-          <div className="container">
-            <div className="breadcrumb-content">
-              <h1 className="breadcrumb-title">Portfolio</h1>
-              <ul className="breadcrumb-menu">
-                <li><a href="/">Superior Estimates</a></li>
-                <li>Portfolio</li>
-              </ul>
-            </div>
+    <div className="">
+      <div className="breadcumb-wrapper" data-bg-src="assets/img/bg/breadcumb-bg.jpg">
+        <div className="container">
+          <div className="breadcumb-content">
+            <h1 className="breadcumb-title">Our Portfolio</h1>
+            <ul className="breadcumb-menu">
+              <li><a href="index.html">Home</a></li>
+              <li>Portfolio</li>
+            </ul>
           </div>
         </div>
-      </div>  
+      </div>
 
 
 
-      <div className="portfolio-container">
+      <div className="portfolio-container" style={{ marginTop: "100px", marginBottom: "100px" }}>
         <h1 className="page-title">Explore Our <span className="text-theme">Projects</span></h1>
         <div className="projects-list">
           {projects.map((project, index) => (

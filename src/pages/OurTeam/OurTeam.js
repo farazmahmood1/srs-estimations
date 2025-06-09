@@ -1,5 +1,6 @@
 import React from 'react';
 import './OurTeam.css';
+import { Link } from 'react-router-dom';
 
 const teamMembers = [
   { id: '01', name: 'Muhammad Ahtsham Haider', role: 'Co-Founder', img: 'assets/img/team/Co-founder_-_Muhammad_Ahtsham_Azam.png' },
@@ -19,13 +20,13 @@ const OurTeam = () => {
           <div className="breadcumb-content">
             <h1 className="breadcumb-title">Our Team</h1>
             <ul className="breadcumb-menu">
-              <li><a href="index.html">Home</a></li>
+              <li><a >Home</a></li>
               <li>Our Team</li>
             </ul>
           </div>
         </div>
       </div>
-      <section className="space-top">
+      <section className="space-top" style={{marginBottom:"130px"}}>
         <div className="container">
           <div className="row gy-40 align-items-center">
             <div className="col-xl-5">
@@ -40,13 +41,13 @@ const OurTeam = () => {
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
                     <div className="icon-btn"><i className="fa-solid fa-phone" /></div>
                     <div className="media-body">
-                      <h6 className="team-contact_label">Phone Number</h6><a className="team-contact_link" href="tel:+19356542587">+1 614 270 6554 </a>
+                      <h6 className="team-contact_label">Phone Number</h6><a className="team-contact_link" href="tel:380 268 9436">+1 (380) 268 9436 </a>
                     </div>
                   </div>
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
                     <div className="icon-btn"><i className="fa-solid fa-envelope" /></div>
                     <div className="media-body">
-                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:info@rachna.com">info@superiorestimate.com</a>
+                      <h6 className="team-contact_label">Email Address</h6><a className="team-contact_link" href="mailto:awais.seads@gmail.com">awais.seads@gmail.com </a>
                     </div>
                   </div>
                   <div className="team-contact" style={{ padding: "11px 3px" }}>
@@ -55,13 +56,13 @@ const OurTeam = () => {
                       <h6 className="team-contact_label">Timings</h6><span className="team-contact_link">10:00AM - 4:00PM</span>
                     </div>
                   </div>
-                </div><a href="about.html" className="th-btn">MAKE AN APPOINTMENT<i className="fa-solid fa-arrow-right ms-2" /></a>
+                </div><Link to='/contact' className="th-btn">MAKE AN APPOINTMENT<i className="fa-solid fa-arrow-right ms-2" /></Link>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section className="space">
+      {/* <section className="space">
         <div className="container">
           <div className="title-area text-center"><span className="sub-title">
             <div className="icon-masking me-2"><span className="mask-icon" data-mask-src="assets/img/theme-img/title_shape_1.svg" /></div>ALL MEMBERS
@@ -159,7 +160,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
 
   );

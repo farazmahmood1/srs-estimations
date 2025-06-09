@@ -1,6 +1,7 @@
 import React from 'react';
 import './WhyUs.css';
 import { FaUsers, FaHeadset, FaStar, FaShippingFast } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 const WhyUs = () => {
   return (
@@ -37,7 +38,7 @@ const WhyUs = () => {
               </div>
               <div>
                 <p className="fw-bold mb-0">Need Assistance? Call Us!</p>
-                <h5 className="fw-bold mb-0" style={{ color: "#106ebe" }}>+1 (614) 270-6554</h5>
+                <h5 className="fw-bold mb-0" style={{ color: "#106ebe" }}><a href='tel:+13802689436'>+1 (380) 268 9436</a></h5>
               </div>
             </div>
           </div>
@@ -95,9 +96,9 @@ const WhyUs = () => {
                       Let’s Talk About Your Project <span className="text-theme">With SEADS</span>
                     </h2>
                   </div>
-                  <a className="th-btn">
+                  <Link to='/contact' style={{cursor:"pointer"}} className="th-btn">
                     CONTACT US<i className="fa-solid fa-arrow-right ms-2" />
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

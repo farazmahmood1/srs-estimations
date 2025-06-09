@@ -3,6 +3,7 @@ import { FaTimes } from 'react-icons/fa';
 import { servicesData } from './components/servicesData';
 import './components/styles.css';
 import Reviews from '../Home/components/Reviews';
+import { Link } from 'react-router-dom';
 
 const Services = () => {
   const [selectedService, setSelectedService] = useState(null);
@@ -102,7 +103,7 @@ const Services = () => {
                     </span>
                     <h2 className="sec-title">Let’s Talk About Business Solutions <span className="text-theme">With
                       Us</span></h2>
-                  </div><a href="contact.html" className="th-btn">CONTACT US<i className="fa-solid fa-arrow-right ms-2" /></a>
+                  </div><Link to='/contact' className="th-btn">CONTACT US<i className="fa-solid fa-arrow-right ms-2" /></Link>
                 </div>
               </div>
             </div>

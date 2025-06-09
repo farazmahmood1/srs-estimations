@@ -38,16 +38,16 @@ const Footer = () => {
                   <h3 className="widget_title">SERVICES</h3>
                   <div className="menu-all-pages-container">
                     <ul className="menu">
-                      <li><a href="/services">Quantity Takeoff</a></li>
-                      <li><a href="/services">Material Estimates</a></li>
-                      <li><a href="/services">Cost Estimates</a></li>
-                      <li><a href="/services">Bid Proposals</a></li>
-                      <li><a href="/services">Architectural Designing</a></li>
+                      <li><Link to='/services'>Quantity Takeoff</Link></li>
+                      <li><Link to='/services'>Material Estimates</Link></li>
+                      <li><Link to='/services'>Cost Estimates</Link></li>
+                      <li><Link to='/services'>Bid Proposals</Link></li>
+                      <li><Link to='/services'>Architectural Designing</Link></li>
                     </ul>
                   </div>
                 </div>
               </div>
-              <div className="col-md-6 col-xl-auto">
+              {/* <div className="col-md-6 col-xl-auto">
                 <div className="widget footer-widget">
                   <h3 className="widget_title">Recent Posts</h3>
                   <div className="recent-post-wrap">
@@ -75,7 +75,7 @@ const Footer = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

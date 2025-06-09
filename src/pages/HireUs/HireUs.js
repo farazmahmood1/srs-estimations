@@ -1,6 +1,7 @@
 import React from 'react';
 import './HireUs.css';
 import Reviews from '../Home/components/Reviews';
+import { Link } from 'react-router-dom';
 
 
 const HireUs = () => {
@@ -82,17 +83,17 @@ const HireUs = () => {
                     </div>
                   </div>
                   <div className="btn-group">
-                    <a href="about.html" className="th-btn">
+                    <Link to='/contact' className="th-btn">
                       DISCOVER MORE<i className="fa-solid fa-arrow-right ms-2" />
-                    </a>
+                    </Link>
                     <div className="call-btn">
                       <div className="play-btn">
                         <i className="fas fa-phone" />
                       </div>
                       <div className="media-body">
                         <span className="btn-text">Call Us On:</span>{" "}
-                        <a href="tel:+16142706554" className="btn-title">
-                          +1 (614) 270-6554
+                        <a href="tel:380 268 9436" className="btn-title">
+                          +1 (380) 268 9436
                         </a>
                       </div>
                     </div>
