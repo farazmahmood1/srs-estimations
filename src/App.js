@@ -16,7 +16,6 @@ import PrivacyPolicy from './pages/Policies/PrivacyPolicy';
 import TermsAndConditions from './pages/Policies/TermsAndConditions';
 
 
-
 function App() {
   return (
     <Router>
